@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Miniver&family=Outfit:wght@100..900&family=Pacifico&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,300;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:lightseagreen;
+   
+}
+
+nav{
+  font-family: "Poppins", sans-serif; ;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 10px 12px;
+}
+.brand img{
+    height: 30px;
+    width: 30px;
+    margin: 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.container{
+    min-height: 70vh;
+    background: url(bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+
+}
+.bottom{
+    position: sticky;
+    height: 85px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+#myProgressBar{
+    width: 80vw;
+    margin: 20px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.icons i{
+  margin-top: 1px;
+}
+.icons i{
+    cursor: pointer;
+}
+
+.songItem{
+    height: 30px;
+    display: flex;
+    color:rgb(4, 88, 116);
+    width: 100%;
+    padding: 5px;
+}
+.songItem img{
+    border-radius: 50%;
+}
+.timestamp{
+    margin: 0 23px;
+   
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: cursive;
+}
+
+.songInfo img{
+    /* opacity: 0; */
+    transition: opacity 0.4s ease-in;
+    
+}
